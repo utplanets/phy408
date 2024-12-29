@@ -1,0 +1,3 @@
+co2/1000/co2_temp_1000.csv sha1:9ed3b2680c66ee82e25ab287f3dea696bbbb2843
+co2/1000/ensembles-10yearsmth.txt sha1:c2fe39592f61862afba192861c5ec5c2639051e0
+co2/1000/smoothedco2.txt sha1:bab5e1990deec2bc0af358bdcfe4b48e70bfc7d9

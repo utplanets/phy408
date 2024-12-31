@@ -1,0 +1,104 @@
+cl:
+  author: Christopher Lee
+  description: Temperature sensor data from Purple Air MP8
+  files:
+  - name: sensor_mp8_temperature_2024.csv
+    sha256: 7b468a8ddae53153cd2836893a2d05f70d639b41a868dfe50dea9a17e50d8157
+  url: null
+co2_1000year:
+  files:
+  - name: ensembles-10yearsmth.txt
+    sha256: 419c29752b9c8d5ee389c342c098f900001daf4f7e4acd5c8ce66428bdd03d04
+  - name: co2_temp_1000.csv
+    sha256: a408108e91d867063809568168d5b75925bfdf68f1297cff362f669ffbf246a0
+  - name: smoothedco2.txt
+    sha256: 44e3275e5f9ef8fcb53d40bf87f7c0ea212d999276b2a222d7857efcebdb54b1
+  url: https://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/frank2010/ensembles-10yearsmth.txt
+maunaloa_noaa:
+  files:
+  - name: co2_annmean_mlo.csv
+    sha256: 70a5d9997b1bc88fafe3f8368826cca067fb5505da4ea6a64825c05e8ff95d73
+  - name: co2_mm_mlo.csv
+    sha256: 7c91d5492b6a49c6faad3f03eae4654d4377497199e29642b0a7de46aecfdf99
+  - name: co2_daily_mlo.csv
+    sha256: 26b68e6a0bd84f6d02c87725c7abec745cb2659c6686b4f7525c21b081d997af
+  - name: ch4_mm_gl.csv
+    sha256: 5b1f0a2ac557c2bb924cc1719bfa82a3d429748e3ac9be866065f967d35648b4
+  - name: ch4_annmean_gl.csv
+    sha256: 14bcff6776a99b664d72ee105cd093ec76bbad04f39b73919f48f3bc46fc06a3
+  url: https://gml.noaa.gov/webdata/ccgg/trends/co2/
+scripps:
+  alert:
+    files:
+    - name: daily_flask_co2_alt.csv
+      sha256: eac183b00ccbbf378072933ce721983cf5a09d657f9b7dbe47c3f88966d400a1
+    - name: daily_flask_o18_alt.csv
+      sha256: b0a8ecadd64e367740826318f4d6af4ac6467a83fd9ebec98c531c258cd7cbc6
+    - name: monthly_flask_co2_alt.csv
+      sha256: cda375a1d79b927a3a3fd134e741eea3ad9b600c0f6cfe73f0bbac9ad5cdd823
+    - name: daily_flask_c13_alt.csv
+      sha256: 730a36930341facf8a0fd3fe47027d12bad14ff7b038b328231fafb15917488b
+    - name: daily_flask_co2_isotopes_alt.csv
+      sha256: 7039d734f35d5e8e6ff341a97e5107ca4ef4421961d0d767f2ab3f79ad0e2b9a
+    - name: monthly_flask_c13_alt.csv
+      sha256: 68fef345da2fc8fbbfa02ad6a978dc9dfcc8bdb8284b34de5405cbc379b764de
+    - name: monthly_flask_o18_alt.csv
+      sha256: 4ad06cb5e978702eb61e9e77398ff74a23c784779c2df2924330b210d5b92517
+    url: https://scrippsco2.ucsd.edu/data/atmospheric_co2/alt.html
+  maunaloa:
+    files:
+    - name: daily_flask_c13_mlo.csv
+      sha256: 66e1bf856dffcf748d964b76ad1a874a0313eff94f59d0674da0dc1abf4d2828
+    - name: daily_in_situ_co2_mlo.csv
+      sha256: 531387ab89c3c12be85ad53ec060910df2bb06aa152f82c6533b7fe25ca7866c
+    - name: monthly_flask_co2_mlo.csv
+      sha256: b9151a322193c05b9d9853f933feaacb69ca5ed80014ccafba1d9b0b9552bc15
+    - name: weekly_in_situ_co2_mlo.csv
+      sha256: fddf88c5baa5461866470de834b0a0329d0f9f8bdbf6c468cc620eaa0375dd48
+    - name: daily_flask_co2_isotopes_mlo.csv
+      sha256: 5d4867ffb46da17986dafa2b4e288fc7be3e8b45d33c748b0e1fda8b92089ac5
+    - name: intermittent_flask_c14_mlo.csv
+      sha256: cd718e1c3ea847cbe19e51da1219eabe6d02ce874b814014d1297a529501b02b
+    - name: monthly_flask_o18_mlo.csv
+      sha256: 1ded03f413ff6e1c6e4be59dede7cc1b2575434729d23636c32dd7c08b291c39
+    - name: daily_flask_co2_mlo.csv
+      sha256: 5a8faaeabfc94e908658e50cd87c669d81943c0fffa5b554ad3eec9f5891398b
+    - name: monthly_in_situ_co2_mlo.csv
+      sha256: 26c5d919810330e5eab3c069f40606d653336cec7c40197dd4687b8937b8aef3
+    - name: daily_flask_o18_mlo.csv
+      sha256: f6c2ed979b1c85138b1c9b53a0e5e6bd9088c6e41db13e49a727134e72b8f337
+    - name: monthly_flask_c13_mlo.csv
+      sha256: 6846bd6605a9292ee4392d5ccb41007df8cbc80b8af482886d2f476b0fc2ee4a
+    url: https://scrippsco2.ucsd.edu/data/atmospheric_co2/mlo.html
+  southpole:
+    files:
+    - name: daily_flask_c13_spo.csv
+      sha256: fb530f2d46802661980a6e38d638708b192c236eb63867f5bf09babc44517b11
+    - name: daily_merge_co2_spo.csv
+      sha256: e0dd4fa8e1b4ebb426bc36b27e967dafa2ba969a7567ace9781cc48dcf4abf2f
+    - name: monthly_flask_o18_spo.csv
+      sha256: 33ef9cc9dd9db4a4a51d03f0869f42a1bf4de66bfa24cc2adb44ba2d1bcaece8
+    - name: daily_flask_co2_isotopes_spo.csv
+      sha256: 0ad8248c85fa5a6624b8aca5f8ddf27bfe3865376626772784303935cd3cb9ed
+    - name: intermittent_flask_c14_spo.csv
+      sha256: 65cf99a85b41aebac57b5020953201ec4a87babd40bb7b49c67204503b02a9f3
+    - name: monthly_merge_co2_spo.csv
+      sha256: cbcfed39cd8c6976b89ba43556444c1789621b7eb1fc7db283306ea8624a2a91
+    - name: daily_flask_o18_spo.csv
+      sha256: ded6bb6e1acade7cd8e7b270be861ed04d3da99f8b8773f6515bd46812f81dcc
+    - name: monthly_flask_c13_spo.csv
+      sha256: 3109c9fb7d5e8c0d9d646f7739c5fd202c63b7861004b5b4194d2a5e058ca2ae
+    url: https://scrippsco2.ucsd.edu/data/atmospheric_co2/spo.html
+sunspots:
+  files:
+  - name: SN_d_tot_v2.0.csv
+    sha256: ecd027eecb2555c597357180efafde3a96ffb204bc2c27245b788fd29820b402
+  - name: SN_m_tot_v2.0.csv
+    sha256: 76ad159857d7c700a952bccf50659e0b884f4ce035f244d158df348fd38ab4aa
+  - name: SN_ms_tot_v2.0.csv
+    sha256: eabbc2d87489c7373d76b3b84cb719e33fa759787de7e61ea992e17fb359a107
+  - name: SN_y_tot_v2.0.csv
+    sha256: 4799a2efafaa0a7394130c4766ba4044e29f66b8946ea1b1a93deda5f3aa0ae0
+  - name: EISN_current.csv
+    sha256: a562df0d2aa182635e16f32be62a9109396112983e6efb1130f43d3aa0b0ec85
+  url: https://www.sidc.be/SILSO/INFO/

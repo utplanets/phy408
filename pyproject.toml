@@ -39,8 +39,12 @@ dependencies = [  "scipy",
   "jupyter","ipykernel",
   "matplotlib>3.7.0, <=3.9.2",
   "seaborn",
-  "pooch"
+  "pooch",
+  "click"
 ]
+
+[project.scripts]
+phy408 = "phy408.cli:test"
 
 [project.optional-dependencies]
 test = [
